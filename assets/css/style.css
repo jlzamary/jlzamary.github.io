@@ -32,3 +32,39 @@
   font-weight: bold;
 }
 
+.project-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+  background: #f9faff;
+  border-radius: 14px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  padding: 1.2em;
+}
+.project-card img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-right: 2em;
+}
+.project-info {
+  flex: 1;
+}
+.learn-more-btn {
+  display: inline-block;
+  border: none;
+  border-radius: 8px;
+  background: #334e68;
+  color: #fff;
+  padding: 0.5em 1.2em;
+  font-weight: bold;
+  text-decoration: none;
+  margin-top: 1em;
+  transition: background 0.2s;
+}
+.learn-more-btn:hover {
+  background: #4d7db8;
+}
+
+
