@@ -40,14 +40,15 @@
   border-radius: 14px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.04);
   padding: 1.2em;
-}
+  
 .project-card img {
-  width: 140px;
-  height: 140px;
-  object-fit: cover;
-  border-radius: 12px;
-  margin-right: 2em;
+  width: 320px;         /* wider rectangle */
+  height: 200px;        /* taller rectangle */
+  object-fit: cover;    /* ensures image fills the area */
+  border-radius: 0;     /* removes rounded corners */
+  flex-shrink: 0;
 }
+
 .project-info {
   flex: 1;
 }
