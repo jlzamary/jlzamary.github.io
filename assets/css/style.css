@@ -101,14 +101,14 @@
 
 .aboutme-banner-photos {
   display: flex;
+  flex-direction: row;    /* default, but can be explicit */
   width: 100%;
-  /* remove margin-left, right, transform, etc */
-  gap: 0;
   overflow: hidden;
+  gap: 0;
 }
 
 .aboutme-banner-photos img {
-  height: 110px; /* or your preferred value */
+  height: 200px;          /* or your preferred height */
   object-fit: cover;
   display: block;
   border-radius: 0;
@@ -119,6 +119,7 @@
 }
 
 .aboutme-banner-photos .photo-center {
-  flex: 1.33 1.33 0; /* center image is wider */
+  flex: 1.33 1.33 0;      /* center is wider */
 }
+
 
