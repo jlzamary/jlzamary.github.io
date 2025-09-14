@@ -102,15 +102,12 @@
 .aboutme-banner-fullwidth {
   display: flex;
   width: 100vw;
-  margin-left: 50%;
-  right: 50%;
-  transform: translateX(-50%);
   overflow: hidden;
   /* Remove margin-top if you want it flush to the bottom */
 }
 
 .aboutme-banner-fullwidth img {
-  height: 130px;       /* set your preferred banner height */
+  height: 175px;       /* set your preferred banner height */
   flex: 1 1 0;
   width: 0;
   min-width: 0;
