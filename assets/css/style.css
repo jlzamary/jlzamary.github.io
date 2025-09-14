@@ -136,48 +136,47 @@
   letter-spacing: 0.01em;
 }
 
-/* ===== Project Layout ===== */
+/* ===== Project ===== */
 
 .project-main {
   max-width: 860px;
   margin: 0 auto;
   padding: 2em 1em;
 }
-
 .project-map-section {
   text-align: center;
   margin-bottom: 1.25em;
+  /* The section-title inside this section will remain left-aligned due to specificity */
 }
-
+.section-title {
+  text-align: left;
+  margin-bottom: 0.7em;
+  margin-top: 0;
+  font-size: 1.28em;
+  color: #232b38;
+  font-weight: bold;
+  margin-left: 0.3em; /* Optional: small indent for visual polish */
+}
 .project-study-map {
   max-width: 100%;
   height: auto;
   border-radius: 8px;
+  margin-top: 0.5em;
+  margin-bottom: 0.1em;
   box-shadow: 0 2px 12px rgba(44,78,104,0.14);
 }
-
 .map-credits {
-  margin-top: 0.3em;
-  font-size: 0.93em;
+  margin-top: 0.1em;
+  font-size: 0.75em;
   color: #5c6577;
   opacity: 0.8;
 }
-
 .project-body p {
   line-height: 1.7;
   margin-bottom: 1.2em;
   font-size: 1.07em;
   color: #242834;
 }
-
-.code-blocks {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2.5em;
-  margin: 2.5em 0 1.2em 0;
-  justify-content: flex-start;
-}
-
 .code-blocks {
   display: flex;
   flex-direction: column;  /* Force vertical stacking */
@@ -185,20 +184,17 @@
   margin: 2.5em 0 1.2em 0;
   justify-content: flex-start;
 }
-
 .code-label {
   font-size: 1em;
   font-weight: bold;
   margin-bottom: 0.45em;
   color: #313e57;
 }
-
 .code-blocks code,
 .code-blocks pre {
   color: #23272d !important;   /* dark gray text */
   background: #f5f7fa;         /* pale background, or adjust as needed */
 }
-
 pre {
   background: transparent;
   padding: 0;
@@ -206,9 +202,7 @@ pre {
   font-size: 0.98em;
 }
 
-/* Side-by-side maps */
-
-
+/* Stacked maps */
 .side-by-side-maps {
   display: flex;
   flex-direction: column;   /* Stack maps vertically */
@@ -219,27 +213,24 @@ pre {
 
 .side-by-side-maps img {
   max-width: 90%;           /* Larger images */
-  width: 350px;             /* Adjust as needed */
-  height: 270px;            /* Make them taller */
-  border-radius: 0;         /* <-- Remove curved edges */
+  width: 400px;             /* Adjust as needed */
+  height: 300px;            /* Make them taller */
+  border-radius: 0;         /* Square edges for maps */
   object-fit: cover;
   box-shadow: 0 2px 10px rgba(44,78,104,0.11);
 }
-
 .side-map-caption {
   font-size: 0.97em;
   color: #555d6d;
   margin-top: 0.6em;
   opacity: 0.85;
 }
-
 .final-paragraph p {
   margin: 1.5em auto 1.5em auto;
   text-align: center;
   color: #233;
   font-size: 1.09em;
 }
-
 .project-btns {
   display: flex;
   justify-content: center;
@@ -247,7 +238,6 @@ pre {
   margin-top: 1.6em;
   margin-bottom: 2em;
 }
-
 .project-action-btn {
   background: #255890;
   color: #fff;
@@ -264,7 +254,6 @@ pre {
   background: #3182ce;
   color: #fff;
 }
-
 @media (max-width: 740px) {
   .side-by-side-maps,
   .code-blocks,
