@@ -33,7 +33,7 @@
   flex: 1;
 }
 .minicard-body h3 {
-  margin: 0 0 0.7em 0;
+  margin: 0 0 0.15em 0;
   font-size: 1.14em;
   color: #232b38;
 }
@@ -41,6 +41,7 @@
   color: #50597a;
   flex: 1;
   font-size: 1em;
+  margin-top: 0;
   margin-bottom: 1.25em;
 }
 .minicard-btn {
