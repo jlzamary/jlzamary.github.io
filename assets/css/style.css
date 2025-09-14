@@ -25,6 +25,8 @@
   object-fit: cover;
   display: block;
   background: #eaeaea;
+  margin: 0;         /* Add this line */
+  padding: 0;        /* Add this line (for safety) */
 }
 .minicard-body {
   padding: 1.35em 1.5em 1.35em;
