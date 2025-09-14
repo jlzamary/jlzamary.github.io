@@ -99,28 +99,26 @@
 
 /* ===== Photo Banner ===== */
 
-.aboutme-banner-fullwidth {
+.aboutme-banner-photos {
   display: flex;
-  width: 100vw;
+  width: 100%;
+  /* remove margin-left, right, transform, etc */
+  gap: 0;
   overflow: hidden;
-  /* Remove margin-top if you want it flush to the bottom */
 }
 
-.aboutme-banner-fullwidth img {
-  height: 175px;       /* set your preferred banner height */
+.aboutme-banner-photos img {
+  height: 110px; /* or your preferred value */
+  object-fit: cover;
+  display: block;
+  border-radius: 0;
+  box-shadow: none;
   flex: 1 1 0;
   width: 0;
   min-width: 0;
-  object-fit: cover;
-  border-radius: 0;    /* No rounded corners for seamless look */
-  box-shadow: none;
-  display: block;
-  margin: 0;
-  padding: 0;
-  border: none;
 }
 
-/* If you want the center image wider than the others: */
-.aboutme-banner-fullwidth img:nth-child(2) {
-  flex: 1.35 1.35 0;
+.aboutme-banner-photos .photo-center {
+  flex: 1.33 1.33 0; /* center image is wider */
 }
+
