@@ -106,7 +106,7 @@
   overflow: hidden;
   gap: 0;
   margin-top: 3em; /* Adjust the value for more or less space */
-  margin-bottom: 3em;   /* space below the banner */
+  margin-bottom: 0.1em;   /* space below the banner */
 }
 
 .aboutme-banner-photos img {
@@ -129,9 +129,9 @@
 .aboutme-banner-footer {
   text-align: center;
   color: #626572;
-  font-size: 0.99em;
-  margin-top: 0.7em;
-  margin-bottom: 0.8em;
+  font-size: 0.65em;
+  margin-top: 0.1em;
+  margin-bottom: 2.5em;
   opacity: 0.94;
   letter-spacing: 0.01em;
 }
