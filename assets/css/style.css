@@ -105,10 +105,12 @@
   width: 100%;
   overflow: hidden;
   gap: 0;
+  margin-top: 3em; /* Adjust the value for more or less space */
+  margin-bottom: 3em;   /* space below the banner */
 }
 
 .aboutme-banner-photos img {
-  height: 200px;          /* or your preferred height */
+  height: 175px;          /* or your preferred height */
   object-fit: cover;
   display: block;
   border-radius: 0;
