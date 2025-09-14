@@ -99,41 +99,30 @@
 
 /* ===== Photo Banner ===== */
 
-.aboutme-banner-row {
+.aboutme-banner-photos {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   width: 100%;
-  max-width: 100vw;
-  min-height: 90px;   /* banner height, adjust as needed */
-  margin: 0;
-  padding: 0;
-  background: transparent;
-  gap: 1.3em;
+  gap: 1.5em;
+  margin-top: 2em;
 }
 
-/* Side images: smaller, square or banner aspect */
-.aboutme-banner-row .banner-side {
-  width: 22vw;
-  min-width: 100px;
-  max-width: 200px;
-  height: 70px;
+.aboutme-banner-photos img {
+  height: 100px;           /* All images: same height */
   object-fit: cover;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(44, 78, 104, 0.09);
+  display: block;
+  box-shadow: 0 2px 10px rgba(44, 78, 104, 0.12);
 }
 
-/* Center image: a bit larger and taller */
-.aboutme-banner-row .banner-center {
-  width: 28vw;
-  min-width: 130px;
-  max-width: 270px;
-  height: 95px;
-  object-fit: cover;
-  border-radius: 10px;
-  box-shadow: 0 4px 18px rgba(44, 78, 104, 0.13);
+/* Side images: shorter width */
+.aboutme-banner-photos .photo-side {
+  width: 140px;
+}
+
+/* Center image: wider, but same height */
+.aboutme-banner-photos .photo-center {
+  width: 220px;
   z-index: 1;
-  transform: translateY(-10px);
 }
-
-
