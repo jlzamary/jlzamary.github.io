@@ -124,4 +124,17 @@
   flex: 1.33 1.33 0;      /* center is wider */
 }
 
+/* ===== Banner Footer ===== */
+
+.aboutme-banner-footer {
+  text-align: center;
+  color: #626572;
+  font-size: 0.99em;
+  margin-top: 0.7em;
+  margin-bottom: 0.8em;
+  opacity: 0.94;
+  letter-spacing: 0.01em;
+}
+
+
 
