@@ -208,18 +208,18 @@ pre {
 .side-by-side-maps {
   display: flex;
   flex-direction: column;   /* Stack maps vertically */
-  gap: 2.2em;
-  margin: 2em 0 1.7em 0;
+  gap: 1em;
+  margin: 1em 0 1em 0;
   align-items: center;
 }
 
 .side-by-side-maps img {
-  width: 75%;             /* 75% of its parent container */
+  width: 85%;             /* 75% of its parent container */
   height: auto;
   border-radius: 0;         /* Square edges for maps */
   object-fit: cover;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 0.1em;
+  margin-bottom: 0.1em;
   box-shadow: 0 2px 10px rgba(44,78,104,0.11);
 }
 .side-map-caption {
