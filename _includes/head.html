@@ -14,6 +14,13 @@
 {%- endif -%}
 <link rel="stylesheet" href="{{ "/assets/PT-Sans/index.css" | relative_url }}">
 <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}">
+
+<!-- Prism.js syntax highlighting -->
+<link href="https://cdn.jsdelivr.net/npm/prismjs@1/themes/prism.css" rel="stylesheet" />
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-core.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1/plugins/autoloader/prism-autoloader.min.js"></script>
+
 {%- if site.plugins contains "jekyll-feed" -%}
 <link rel="alternate" href="{{ site.feed.path | default: "/feed.xml" | relative_url }}" type="application/atom+xml" title="{{ site.title }}">
 {%- endif -%}
