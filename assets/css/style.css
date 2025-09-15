@@ -280,6 +280,16 @@ body {
   color: #232834 !important;
 }
 
+body {
+  background: #f4f5fa !important;  /* Or your favorite light grey */
+  color: #232834 !important;
+}
+.project-main {
+  background: #fff;        /* Main content "card" stays white */
+  border-radius: 14px;     /* Optional: gives content a card feel */
+  box-shadow: 0 2px 16px rgba(44, 78, 104, 0.07); /* Optional for card effect */
+}
+
 
 
 
