@@ -36,19 +36,24 @@ permalink: /projects/project1/
   <div>
     <div class="code-label">NDCI Calculation in Python</div>
     <pre><code class="language-python">
+# Function to calculate Normalized Difference Chlorophyll Index
 def calculate_ndci(image):
-    # Add Normalized Difference Chlorophyll Index (NDCI) as a new band
+    # Define and calculate NDCI bands
     ndci = image.normalizedDifference(['B5','B4']).rename('NDCI')
+    # Add NDCI bands 
     return image.addBands(ndci)
 </code></pre>
   </div>
   <div>
     <div class="code-label">NDWI Calculation in Python</div>
     <pre><code class="language-python">
+# Function to mask land (only maintain bodies of water)
 def mask_land(image):
-    # Generate water mask using the NDWI index and mask out non-water pixels
+    # Define and calculate NDWI bands 
     ndwi = image.normalizedDifference(['B3','B8']).rename('NDWI')
+    # Returns values only greater than 0.1 which typically is just water
     water_mask = ndwi.gt(0.1)
+    # return the satellite image with just water
     return image.updateMask(water_mask)
 </code></pre>
   </div>
