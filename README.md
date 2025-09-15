@@ -1,4 +1,4 @@
-# Jack Zamary Portfolio
+## Jack Zamary's Portfolio
 
 My personal website and portfolio showcasing my research, GIS projects, and a little bit about myself
 
