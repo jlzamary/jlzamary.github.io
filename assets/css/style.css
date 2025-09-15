@@ -285,3 +285,20 @@ body {
   border-radius: 0;       /* No rounded corners */
   box-shadow: none;       /* No shadow */
 }
+
+/* ===== Project 2 ===== */
+
+.instructor-quote {
+  background: #f5f7fa;
+  border-left: 4px solid #255890;
+  margin: 1.5em 0;
+  padding: 1em 1.5em;
+  color: #313e57;
+  font-size: 1.05em;
+}
+.instructor-quote .instructor {
+  display: block;
+  text-align: right;
+  color: #5c6577;
+  font-size: 0.95em;
+}
