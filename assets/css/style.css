@@ -270,6 +270,17 @@ pre {
   }
 }
 
+/* ===== Force Light Mode ===== */
+
+:root {
+  color-scheme: light;
+}
+body {
+  background: #fff !important;
+  color: #232834 !important;
+}
+
+
 
 
 
