@@ -1,81 +1,56 @@
-## Github Pages
+# Jack Zamary Portfolio
 
-Just fork this [repository](https://github.com/niklasbuschmann/contrast) to `your_username.github.io` and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
+My personal website and portfolio showcasing my research, GIS projects, and a little bit about myself
+
+---
+
+## Table of Contents
+
+- [About](#about)
+- [Features](#features)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [Contact](#contact)
+
+---
+
+## About
+
+I am a student at the College of William & Mary pursuing a bachelor’s degree in Data Science with a concentration in Spatial Data Analytics and a minor in Biology. Through my coursework and research, I’ve built a strong foundation in GIS analysis, remote sensing, and environmental science
+
+---
 
 ## Features
 
- - dark mode
- - [KaTeX](https://katex.org) included
- - no external ressources
- - optional sidebar
- - archive page
- - syntax highlighting
- - supports comments via [disqus](https://disqus.com/) or [isso](http://posativ.org/isso/)
+- Project and research showcases with interactive maps and visualizations
+- About Me and Resume sections
+- Embedded ArcGIS StoryMaps 
+- Contact and social links
 
-## Installation
+---
 
-To run locally [install Ruby](https://www.ruby-lang.org/en/documentation/installation/) and then run:
+## Usage
 
-```
-git clone https://github.com/niklasbuschmann/contrast.git
-cd contrast
-gem install bundler jekyll jekyll-feed
-bundle exec jekyll serve
-```
+Visit [jlzamary.github.io](https://jlzamary.github.io/) to view my portfolio.
 
-## Config
+- Navigate using the menu: Projects, About Me, and Resume
+- Explore project pages for detailed research summaries, map visualizations, and downloadable data
+- Use the contact links to connect with me
 
-Your `_config.yml` could for example look like this:
+---
 
-```yaml
-title: "Blog Title"
-author: "Blog Author"
-description: "My blog"
-permalink: /:title/
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
+## Technologies
 
-# Layout
+- Jekyll (static site generator)
+- HTML, CSS (custom minimalist theme)
+- JavaScript
+- ArcGIS StoryMaps and Google Earth Engine (for project work)
+- GitHub Pages (for hosting)
 
-show_excerpts: true             # show article excerpts instead of archive list on the home page
-show_frame: true                # display a grey frame on large screens
-show_sidebar: false             # show a sidebar instead of the usual header
-show_minimal: false             # remove all clutter
+---
 
-# Menu                          # for available icons see https://fontawesome.com/v5/icons/
+## Contact
 
-navigation:                     # accepts {file, title, url, icon, sidebaricon}
-  - {file: "archive.html", sidebaricon: home}
-  - {file: "README.md", sidebaricon: address-card}
-
-external:                       # accepts {file, title, url, icon, sidebaricon}
-  - {title: Mail, icon: envelope, url: "mailto:author@example.com"}
-  - {title: Github, icon: github, url: "https://github.com/"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
-
-comments:
-#  disqus_shortname: ""         # see https://disqus.com
-#  isso_domain: ""              # see https://isso-comments.de
-
-plugins:
- - jekyll-feed
-```
-
-## Math
-
-Contrast comes preinstalled with a leightweight alternative to MathJax called [KaTeX](https://katex.org/). To display equations in a post simply set `mathjax: true` in the article's front matter. [Jektex](https://github.com/yagarea/jektex) can be used to pre-render math on the server side.
-
-## License
-
-[public domain](http://unlicense.org/)
-
-## Screenshots
-
-![screenshot](https://github.com/user-attachments/assets/8f0ef4bc-f079-495e-8c31-5867b8ccd25c)
-
-![screenshot](https://github.com/user-attachments/assets/e5e6d189-3251-41f4-baba-ff42be65f666)
-
-![screenshot](https://github.com/user-attachments/assets/d31879ae-7113-42be-b580-1e96a2aedd29)
-
-![screenshot](https://github.com/user-attachments/assets/d524ce47-8d8c-473e-afc6-79b34fae63e8)
+- **Email:** jlzamary@wm.edu
+- [**LinkedIn**](https://www.linkedin.com/in/jack-liam-zamary/)
+- [**GitHub**](https://github.com/jlzamary)
