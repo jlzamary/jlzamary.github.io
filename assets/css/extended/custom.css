@@ -1,0 +1,54 @@
+.profile img {
+    width: 150px;
+    height: 150px;
+}
+
+.entry-cover img {
+    aspect-ratio: 16 / 5;
+    object-fit: cover;
+}
+
+.project-banner-meta {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: .75rem;
+    margin: 0 0 var(--content-gap);
+}
+
+.project-banner-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-banner-tags li a {
+    display: inline-block;
+    padding: .25rem .75rem;
+    border-radius: 999px;
+    background: var(--tertiary);
+    color: var(--secondary);
+    font-size: .8rem;
+    text-decoration: none;
+}
+
+.project-banner-tags li a:hover {
+    background: var(--border);
+}
+
+.project-banner-link {
+    font-size: .9rem;
+    font-weight: 600;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.project-banner-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Jack&#39;s Portfolio</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Jack&#39;s Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 15 Aug 2026 13:51:15 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Guide to Your First Research Conference as an Undergraduate</title>
+      <link>http://localhost:1313/posts/scgis/</link>
+      <pubDate>Sat, 15 Aug 2026 13:51:15 -0400</pubDate>
+      <guid>http://localhost:1313/posts/scgis/</guid>
+      <description>My thoughts and recommendations after attending my first research conference as an undergrad.</description>
+    </item>
+    <item>
+      <title>H3 HexParser</title>
+      <link>http://localhost:1313/projects/hex-parser/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/hex-parser/</guid>
+      <description>f&amp;#39;Easily parse and map in Uber&amp;#39;s H3 grid, just upload a file&amp;#39;</description>
+    </item>
+    <item>
+      <title>Suburban Sprawl Analysis</title>
+      <link>http://localhost:1313/projects/suburban-sprawl-analysis/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/suburban-sprawl-analysis/</guid>
+      <description>Remote sensing analysis of vegetation loss in Ashburn, VA and Scottsdale, AZ from 1990-2025.</description>
+    </item>
+    <item>
+      <title>AquaSense</title>
+      <link>http://localhost:1313/projects/aqua-sense/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/aqua-sense/</guid>
+      <description>Ocean Intelligence, Decoded</description>
+    </item>
+    <item>
+      <title>GIS Portfolio</title>
+      <link>http://localhost:1313/projects/gis-portfolio/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/gis-portfolio/</guid>
+      <description>f&amp;#39;Easily parse and map in Uber&amp;#39;s H3 grid, just upload a file&amp;#39;</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;!-- ### Hi There! 🧗‍♂️
+I&#39;m Jack, a __Data Science__ major and __Biology__ minor at William &amp; Mary
+- Currently a Data Science Intern at [Aireon LLC](https://aireon.com/)
+- Member of the Conservation GIS Lab and Conservation Research Program at W&amp;M
+- I specialize in building out machine learning pipelines and working with remote sensing data to better inform conservation-related decisions. --&gt;
+&lt;h3 id=&#34;a-brief-introduction&#34;&gt;A Brief Introduction&lt;/h3&gt;
+&lt;p&gt;Hey, I&amp;rsquo;m Jack! A fun fact about me is that I grew up living overseas. Before moving back to the U.S. in 2019, I was living in Bogotá, Colombia, South America. I had the incredible opportunity to meet new people, experience different cultures, and try lots of tasty food!&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

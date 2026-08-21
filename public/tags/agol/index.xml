@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>AGOL on Jack&#39;s Portfolio</title>
+    <link>http://localhost:1313/tags/agol/</link>
+    <description>Recent content in AGOL on Jack&#39;s Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 15 Dec 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/agol/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Suburban Sprawl Analysis</title>
+      <link>http://localhost:1313/projects/suburban-sprawl-analysis/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/suburban-sprawl-analysis/</guid>
+      <description>Remote sensing analysis of vegetation loss in Ashburn, VA and Scottsdale, AZ from 1990-2025.</description>
+    </item>
+  </channel>
+</rss>

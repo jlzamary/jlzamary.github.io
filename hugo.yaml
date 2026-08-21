@@ -1,0 +1,81 @@
+baseURL: https://example.org/
+locale: en-us
+title: Jack's Portfolio
+theme: ["PaperMod"]
+
+pagination:
+  pagerSize: 10
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+minify:
+  disableXML: true
+
+imaging:
+  resampleFilter: Lanczos
+  quality: 90
+
+params:
+  env: production
+  description: "Jack Zamary's personal portfolio and blog."
+  author: Jack Zamary
+
+  defaultTheme: auto
+  disableThemeToggle: false
+  ShowShareButtons: false
+  ShowReadingTime: true
+  displayFullLangName: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowRssButtonInSectionTermList: true
+  ShowToc: true
+
+  profileMode:
+    enabled: true
+    title: "Jack Zamary"
+    subtitle: |- 
+      Data Science Student @ William & Mary | Prev Data Science Intern @ Aireon LLC \
+      Machine Learning • Geospatial Analysis • Data Visualization
+    imageUrl: "jlz_professional_pfp.jpeg"
+    imageTitle: "Jack Zamary"
+    imageWidth: 300
+    imageHeight: 300
+    buttons:
+      - name: Blog
+        url: posts
+      - name: Projects
+        url: projects
+      - name: About
+        url: about
+
+  socialIcons:
+    - name: linkedin
+      url: "https://linkedin.com/in/jack-liam-zamary"
+    - name: github
+      url: "https://github.com/jlzamary"
+    - name: email
+      url: "mailto:jlzamary@wm.edu"
+
+menu:
+  main:
+    - identifier: posts
+      name: Blog
+      url: /posts/
+      weight: 10
+    - identifier: projects
+      name: Projects
+      url: /projects/
+      weight: 20
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 30

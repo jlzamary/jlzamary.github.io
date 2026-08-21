@@ -1,0 +1,16 @@
+{{- $tagsTaxonomy := .Language.Params.Taxonomies.tag | default "tags" }}
+{{- $terms := .GetTerms $tagsTaxonomy }}
+{{- if (or $terms .Params.projectURL) }}
+<div class="project-banner-meta">
+    {{- with $terms }}
+    <ul class="project-banner-tags">
+        {{- range . }}
+        <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+        {{- end }}
+    </ul>
+    {{- end }}
+    {{- with .Params.projectURL }}
+    <a class="project-banner-link" href="{{ . }}" target="_blank" rel="noopener noreferrer">View Project &rarr;</a>
+    {{- end }}
+</div>
+{{- end }}

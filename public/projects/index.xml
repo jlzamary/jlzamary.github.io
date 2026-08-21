@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Jack&#39;s Portfolio</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Jack&#39;s Portfolio</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 01 Aug 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>H3 HexParser</title>
+      <link>http://localhost:1313/projects/hex-parser/</link>
+      <pubDate>Sat, 01 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/hex-parser/</guid>
+      <description>f&amp;#39;Easily parse and map in Uber&amp;#39;s H3 grid, just upload a file&amp;#39;</description>
+    </item>
+    <item>
+      <title>Suburban Sprawl Analysis</title>
+      <link>http://localhost:1313/projects/suburban-sprawl-analysis/</link>
+      <pubDate>Mon, 15 Dec 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/suburban-sprawl-analysis/</guid>
+      <description>Remote sensing analysis of vegetation loss in Ashburn, VA and Scottsdale, AZ from 1990-2025.</description>
+    </item>
+    <item>
+      <title>AquaSense</title>
+      <link>http://localhost:1313/projects/aqua-sense/</link>
+      <pubDate>Sun, 12 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/aqua-sense/</guid>
+      <description>Ocean Intelligence, Decoded</description>
+    </item>
+    <item>
+      <title>GIS Portfolio</title>
+      <link>http://localhost:1313/projects/gis-portfolio/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/gis-portfolio/</guid>
+      <description>f&amp;#39;Easily parse and map in Uber&amp;#39;s H3 grid, just upload a file&amp;#39;</description>
+    </item>
+  </channel>
+</rss>
